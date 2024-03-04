@@ -1,4 +1,3 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -52,10 +51,10 @@ header {
     font-size: 40px;
     margin-top: 290px;
     margin-bottom: 10px; 
-    color: white; /* Textfarbe auf Weiß ändern */
-    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; /* Schwarzer Textschatten für bessere Lesbarkeit */
-    -webkit-text-stroke: 1px white; /* Weiße Umrandung für Webkit-basierte Browser */
-    text-stroke: 1px white; /* Weiße Umrandung für nicht-Webkit-basierte Browser */
+    color: white;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+    -webkit-text-stroke: 1px white;
+    text-stroke: 1px white;
 }
 
 .personal-info ul {
@@ -82,7 +81,7 @@ header {
 }
 
 .resume-section ul li.experience-gap {
-    margin-top: 50px; /* Erhöht den Abstand zwischen den Abschnitten */
+    margin-top: 50px;
 }
 
 .resume-section ul li a {
@@ -107,9 +106,9 @@ footer {
 }
 
 .skills {
-    list-style: none; /* Entfernt die Punkte vor den Skills */
+    list-style: none;
 }
 
 footer nav ul {
-    list-style: none; /* Entfernt die Punkte vor den Links */
+    list-style: none;
 }
