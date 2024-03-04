@@ -48,10 +48,10 @@ header {
 }
 
 .personal-info h2 {
-    font-weight: bold; /* Text dicker machen */
+    font-weight: bold; 
     font-size: 40px;
     margin-top: 290px;
-    margin-bottom: 10px; /* Etwas weiter nach unten verschieben */
+    margin-bottom: 10px; 
     color: white; /* Textfarbe auf Weiß ändern */
     text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; /* Schwarzer Textschatten für bessere Lesbarkeit */
     -webkit-text-stroke: 1px white; /* Weiße Umrandung für Webkit-basierte Browser */
