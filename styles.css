@@ -1,0 +1,115 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.personal-info {
+    background-image: url('profilbild.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    height: 550px;
+}
+
+.personal-info .container {
+    display: flex;
+    align-items: center;
+    padding-left: 2cm; 
+}
+
+.personal-info .info {
+    flex-grow: 1;
+}
+
+.personal-info h2 {
+    font-weight: bold; /* Text dicker machen */
+    font-size: 40px;
+    margin-top: 290px;
+    margin-bottom: 10px; /* Etwas weiter nach unten verschieben */
+    color: white; /* Textfarbe auf Weiß ändern */
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black; /* Schwarzer Textschatten für bessere Lesbarkeit */
+    -webkit-text-stroke: 1px white; /* Weiße Umrandung für Webkit-basierte Browser */
+    text-stroke: 1px white; /* Weiße Umrandung für nicht-Webkit-basierte Browser */
+}
+
+.personal-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.personal-info ul li {
+    margin-bottom: 5px;
+    color: black;
+}
+
+.resume-section {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-section ul {
+    list-style: none;
+    
+}
+
+.resume-section ul li.experience-gap {
+    margin-top: 50px; /* Erhöht den Abstand zwischen den Abschnitten */
+}
+
+.resume-section ul li a {
+    text-decoration: none;
+}
+
+.resume-section h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.skills {
+    list-style: none; /* Entfernt die Punkte vor den Skills */
+}
+
+footer nav ul {
+    list-style: none; /* Entfernt die Punkte vor den Links */
+}
