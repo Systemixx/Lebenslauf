@@ -11,9 +11,10 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 20px;
+    text-align: left; /* Text linksbündig ausrichten */
 }
 
 header {
@@ -23,33 +24,17 @@ header {
     padding: 20px 0;
 }
 
-.personal-info {
-    background-image: url('profilbild.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-    height: 550px;
-}
-
 .personal-info .container {
     display: flex;
     align-items: center;
-    padding-left: 2cm; 
-}
-
-.personal-info .info {
-    flex-grow: 1;
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    flex-direction: column; /* Anordnung der Inhalte in Spalten */
 }
 
 .personal-info h2 {
     font-weight: bold; 
     font-size: 40px;
-    margin-top: 290px;
+    margin-top: 10px;
     margin-bottom: 10px; 
     color: white;
     text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
@@ -62,11 +47,6 @@ header {
     padding: 0;
 }
 
-.personal-info ul li {
-    margin-bottom: 5px;
-    color: black;
-}
-
 .resume-section {
     background-color: #fff;
     margin-top: 20px;
@@ -77,11 +57,10 @@ header {
 
 .resume-section ul {
     list-style: none;
-    
 }
 
 .resume-section ul li.experience-gap {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .resume-section ul li a {
@@ -91,7 +70,6 @@ header {
 .resume-section h3 {
     color: #007bff;
     margin-bottom: 10px;
-    list-style: none;
 }
 
 footer {
@@ -102,13 +80,23 @@ footer {
     font-size: 20px;
     padding: 20px 0;
     margin-top: 20px;
-    list-style: none;
 }
 
 .skills {
     list-style: none;
+    columns: 2;
+    padding: 0;
 }
 
-footer nav ul {
-    list-style: none;
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 0 10px;
+    }
+    .personal-info h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .skills {
+        columns: 1;
+    }
 }
