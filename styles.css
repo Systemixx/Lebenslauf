@@ -14,7 +14,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
-    text-align: left; /* Text linksbündig ausrichten */
+    text-align: left;
 }
 
 header {
@@ -27,8 +27,8 @@ header {
 .personal-info .container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Zentriert den Inhalt horizontal */
-    flex-direction: column; /* Anordnung der Inhalte in Spalten */
+    justify-content: center; 
+    flex-direction: column; 
 }
 
 .personal-info h2 {
@@ -98,5 +98,8 @@ footer {
     }
     .skills {
         columns: 1;
+    }
+    .personal-details {
+        text-align: center; /* Zentrieren der persönlichen Details auf kleinen Bildschirmen */
     }
 }
